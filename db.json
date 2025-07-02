@@ -1,0 +1,202 @@
+{
+  "groups": [
+    {
+      "id": "1",
+      "name": "Arisan A"
+    },
+    {
+      "id": "2",
+      "name": "Arisan B"
+    },
+    {
+      "id": "3",
+      "name": "Arisan C "
+    },
+    {
+      "id": "4",
+      "name": "Arisan D"
+    },
+    {
+      "id": "5",
+      "name": "Arisan E"
+    }
+  ],
+  "participants": [
+    {
+      "id": "1",
+      "name": "Peserta A"
+    },
+    {
+      "id": "2",
+      "name": "Peserta B"
+    },
+    {
+      "id": "3",
+      "name": "Peserta C"
+    },
+    {
+      "id": "4",
+      "name": "Peserta D"
+    },
+    {
+      "id": "5",
+      "name": "Peserta E"
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "group_id": "1",
+      "participant_id": "1",
+      "amount": 100000,
+      "date": "2023-10-01"
+    },
+    {
+      "id": 5,
+      "group_id": "3",
+      "participant_id": ["1"],
+      "amount": 333333
+    }
+  ],
+  "group_payments": {
+    "name": "Arisan RT 07",
+    "total_participants": 10,
+    "contribution_amount": 200000,
+    "start_date": "2025-07-01",
+    "status": "active"
+  },
+  "group_events": [
+    {
+      "id": 1,
+      "period_number": 1,
+      "period_description": "Periode 1",
+      "winner": { "id": 1, "name": "Peserta 1" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 2,
+      "period_number": 2,
+      "period_description": "Periode 2",
+      "winner": { "id": 2, "name": "Peserta 2" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 3,
+      "period_number": 3,
+      "period_description": "Periode 3",
+      "winner": { "id": 3, "name": "Peserta 3" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 4,
+      "period_number": 4,
+      "period_description": "Periode 4",
+      "winner": { "id": 4, "name": "Peserta 4" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 5,
+      "period_number": 5,
+      "period_description": "Periode 5",
+      "winner": { "id": 5, "name": "Peserta 5" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 6,
+      "period_number": 6,
+      "period_description": "Periode 6",
+      "winner": { "id": 6, "name": "Peserta 6" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 7,
+      "period_number": 7,
+      "period_description": "Periode 7",
+      "winner": { "id": 7, "name": "Peserta 7" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 8,
+      "period_number": 8,
+      "period_description": "Periode 8",
+      "winner": { "id": 8, "name": "Peserta 8" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 9,
+      "period_number": 9,
+      "period_description": "Periode 9",
+      "winner": { "id": 9, "name": "Peserta 9" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 10,
+      "period_number": 10,
+      "period_description": "Periode 10",
+      "winner": { "id": 10, "name": "Peserta 10" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 11,
+      "period_number": 11,
+      "period_description": "Periode 11",
+      "winner": { "id": 11, "name": "Peserta 11" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    },
+    {
+      "id": 12,
+      "period_number": 12,
+      "period_description": "Periode 12",
+      "winner": { "id": 12, "name": "Peserta 12" },
+      "participants": [
+        { "id": 1, "name": "Peserta 1", "status": "success" },
+        { "id": 2, "name": "Peserta 2", "status": "failed" },
+        { "id": 3, "name": "Peserta 3", "status": "success" }
+      ]
+    }
+  ]
+}
